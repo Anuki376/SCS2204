@@ -15,6 +15,5 @@ object Cipher extends App {
 
   val pt = Cipher(Decrypt,ct,5,alphabet)
   println(pt)
-
-  println(ct)
+  
 }
